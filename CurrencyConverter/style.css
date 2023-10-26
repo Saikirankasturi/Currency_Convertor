@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Work+Sans:wght@400;500&display=swap");
+
+* {
+    margin: 18px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+  }
+body{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkcyan;
+}
+.container{
+    width: 600px;
+}
+label,span{
+    font-size: large;
+    font-weight: 500;
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.col{
+    width: 48%;
+}
+select{
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 20px;
+    padding: 8px 15px;
+    font-weight: 700;
+}
+input{
+    width: 100%;
+    font-size: 20px;
+    padding: 8px 15px;
+    font-weight: 700;
+}
+button{
+    width: 200px;
+    display: block;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 15px;
+    background-color: bisque;
+    font-size: 30px;
+    cursor: pointer;
+    border: 0;
+}
